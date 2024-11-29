@@ -1,0 +1,13 @@
+Milestone - 1:
+
+What is your basic understanding of the scope of the project? What business case does the project address? Who are the typical users of the solution? How does the solution help those users?
+
+
+Milestone - 2:
+
+Plan to execute the project: What are the main components of the solution and how do they communicate with each other; underlying data structures in the app; tech stack used; different types of roles in the app; any of interfaces to be developed; datasets that will be used and how will they be processed; input and output screens; workflow; any specific business logic to be coded - what is the source of this information
+
+
+Milestone - 3:
+
+Demo of the solution Walk through of the solution/application showing the typical use cases along with potential upgrades to the solution.

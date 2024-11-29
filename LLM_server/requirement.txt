@@ -1,0 +1,11 @@
+fastapi 
+uvicorn 
+sentence-transformers 
+transformers 
+torch 
+tf-keras 
+tensorflow
+fastapi-cors
+groq
+nltk
+google-generativeai

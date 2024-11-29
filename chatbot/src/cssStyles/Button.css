@@ -1,0 +1,63 @@
+.custom-button {
+    --primary-color: #ffffff;
+    --secondary-color: #141F0E;
+    --hover-color: #ffffff;
+    --arrow-width: 10px;
+    --arrow-stroke: 2px;
+    box-sizing: border-box;
+    border: 2px solid #141F0E;
+    border-radius: 25px;
+    color: #ffffff;
+    padding: .25em .75em;
+    background: #141F0E;
+    display: flex;
+    transition: 0.2s background;
+    align-items: center;
+    gap: 0.6em;
+}
+
+.custom-button .arrow-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.custom-button .arrow {
+    margin-top: 1px;
+    width: var(--arrow-width);
+    background: #141F0E;
+    /* Default arrow background color */
+    height: var(--arrow-stroke);
+    position: relative;
+    transition: 0.2s;
+}
+
+.custom-button .arrow::before {
+    content: "";
+    box-sizing: border-box;
+    position: absolute;
+    border: solid #ffffff;
+    border-width: 0 var(--arrow-stroke) var(--arrow-stroke) 0;
+    display: inline-block;
+    top: -3px;
+    right: 5px;
+    transition: 0.2s;
+    padding: 3px;
+    transform: rotate(-45deg);
+}
+
+.custom-button:hover {
+    background-color: #ffffff;
+    color: #141F0E;
+}
+
+.custom-button:hover .arrow {
+    background: #141F0E;
+    /* Hover arrow background color */
+}
+
+.custom-button:hover .arrow:before {
+    border-color: #141F0E;
+    /* Hover arrow border color */
+    right: 0;
+}

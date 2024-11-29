@@ -1,0 +1,107 @@
+Components:-
+
+Header/Navbar: Navigation bar to help users move between different sections of the site.
+Footer: Contains links to contact information, privacy policy, etc.
+Search Bar: The main component where users input their queries.
+Document List: Displays a list of documents based on the search query.
+Document Viewer: Allows users to read the selected document.
+Language Switcher: Toggle between English and Hindi versions.
+Login/Signup: User authentication component.
+User Profile: Displays user-specific information and saved queries/documents.
+Upload Document: For administrators to upload new documents to the system.
+
+
+
+
+
+
+
+
+
+Pages:-
+
+Home Page
+
+Header/Navbar
+Search Bar
+Quick Access Links (to popular documents or categories)
+Search Results Page
+
+Search Bar
+Document List (shows titles, brief descriptions, and tags)
+Filters (date, type, category)
+Document Detail Page
+
+Document Viewer (with options to download or print)
+Related Documents (suggestions based on the current document)
+Login/Signup Page
+
+Form for user authentication
+Links to reset password or register
+User Profile Page
+
+User Information (name, email, etc.)
+Saved Queries/Documents
+Settings (language preference, notification settings)
+Admin Dashboard
+
+Document Upload Form
+User Management
+Analytics (usage stats, search trends)
+Workflow
+Home Page
+
+User lands on the home page and uses the search bar to enter a query.
+The system processes the query using the LLM or RAG framework.
+User is redirected to the Search Results Page.
+Search Results Page
+
+Displays the documents matching the query.
+User can click on a document title to view more details.
+Document Detail Page
+
+Displays the document content.
+User can read, download, or print the document.
+Suggestions for related documents are shown.
+Login/Signup Page
+
+User can create an account or log in to access additional features like saving documents.
+User Profile Page
+
+Logged-in users can view their saved documents and search history.
+Admin Dashboard
+
+Admins can upload new documents, manage users, and view analytics.
+Incremental Features
+Basic Prototype
+
+Home Page with Search Bar
+Search Results Page with Document List
+Document Detail Page with Document Viewer
+User Authentication
+
+Login/Signup Page
+User Profile Page
+Admin Features
+
+Admin Dashboard
+Document Upload
+Language Support
+
+Language Switcher component
+Support for Hindi documents
+
+
+
+
+
+
+
+
+
+
+User Roles:-
+
+1. Guest User - Search Documents, View Documents 
+2. Registered User - Search Documents, View Documents, Save Searches/Documents
+3. Administrator - Search Documents, View Documents, Save Searches/Documents, Upload Documents, Manage Users, View Analytics, Moderate Content, System Settings
